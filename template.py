@@ -9,7 +9,7 @@ header = """<html><head>
 </head><body>
     <div class="container" id="main">
         <h1 id="title">{title}</h1>
-        <h3>who asked to be indexed</h3>
+        <h3>This page is also a <a href="http://www.github.com/hacsoc/resumes">Git repository</a></h3>
         <div class="span-5 colborder" id="sidebar">
 """
 
