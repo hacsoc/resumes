@@ -9,10 +9,5 @@ Deploying
 =========
 
 This repository uses [Github Pages](http://pages.github.com/) to host the
-static HTML output of the script. The deployment process is basically:
-
-    git checkout master
-    cp index.html /tmp/index.html
-    git checkout gh-pages
-    mv /tmp/index.html index.html
-    git push origin gh-pages
+static HTML output of the script. To deploy, just run `deploy.sh`. It's an
+extremely simple script.
