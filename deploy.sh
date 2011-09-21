@@ -1,3 +1,4 @@
+#!/bin/sh
 cp index.html /tmp &&
 git checkout gh-pages &&
 rm index.html &&
